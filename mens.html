@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mens</title>
+  </head>
+  <style>
+    img {
+      width: 100%;
+    }
+    #container {
+      display: flex;
+      justify-content: center;
+      width: 50%;
+      margin: auto;
+    }
+    .product > div:last-child {
+      display: flex;
+      gap: 10px;
+      padding-left: 20px;
+      margin-top: -15px;
+    }
+    .product > div:first-child {
+      display: flex;
+      justify-content: center;
+    }
+    .pricing > p:last-child {
+      color: green;
+    }
+    .pricing > p:nth-child(2) {
+      text-decoration: line-through;
+    }
+    .product > p {
+      padding-left: 20px;
+    }
+  </style>
+  <body>
+    <div id="container">
+      <div class="product">
+        <div>
+          <img
+            src="https://m.media-amazon.com/images/I/41vABBIr6ZL._UX679_.jpg"
+            alt=""
+          />
+        </div>
+        <p><b>Pause</b></p>
+        <p>Men Cotton Long Sleeves Shrug</p>
+        <div class="pricing">
+          <p><b>$ 359</b></p>
+          <p>$ 1,499</p>
+          <p><b>-76%</b></p>
+        </div>
+      </div>
+      <div class="product">
+        <div>
+          <img
+            src="https://m.media-amazon.com/images/I/41vABBIr6ZL._UX679_.jpg"
+            alt=""
+          />
+        </div>
+        <p><b>Pause</b></p>
+        <p>Men Cotton Long Sleeves Shrug</p>
+        <div class="pricing">
+          <p><b>$ 359</b></p>
+          <p>$ 1,499</p>
+          <p><b>-76%</b></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
